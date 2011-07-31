@@ -13,6 +13,7 @@ function koprolwp_share_display(){
 }
 
 
+
 wp_enqueue_style( 'koprolwp', plugin_dir_url( __FILE__ ) .'styles/koprolwp.css' );
 add_filter( 'the_content', 'koprolwp_share_display');
 
